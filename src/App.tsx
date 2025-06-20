@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Layout from './components/Layout';
 import Home from './pages/Home';
@@ -7,7 +7,6 @@ import Skills from './pages/Skills';
 import WebDev from "./pages/WebDev";
 import ToolsDev from './pages/ToolsDev';
 import XRDev from './pages/XRDev';
-import FadeWrapper from './components/FadeWrapper'
 
 function App() {
 

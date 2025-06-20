@@ -1,10 +1,9 @@
 import React from 'react';
 import Divider from '@mui/material/Divider';
-import { Outlet } from 'react-router-dom';
 import { AppBar, Toolbar, Tabs, Tab} from '@mui/material';
 import {Link, useLocation, useOutlet} from 'react-router-dom';
 import './Layout.css';
-import { motion, AnimatePresence } from 'framer-motion';
+import { AnimatePresence } from 'framer-motion';
 import FadeWrapper from './FadeWrapper';
 
 

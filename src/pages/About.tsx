@@ -1,4 +1,4 @@
-import { Typography, Container } from "@mui/material";
+import { Typography} from "@mui/material";
 import Divider from '@mui/material/Divider';
 import aboutBackground from "../assets/about_bg.jpg"
 import PageWithHero from "../components/PageWithHero";

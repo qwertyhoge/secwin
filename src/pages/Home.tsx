@@ -1,5 +1,5 @@
 import Divider from '@mui/material/Divider';
-import {Typography,  Container, ListItemButton, Box} from '@mui/material';
+import {Typography,  ListItemButton, Box} from '@mui/material';
 import homeBackground from "../assets/home_bg.jpg"
 import wantedlyIcon from "../assets/wantedly_logo.svg"
 import githubIcon from "../assets/github-mark.svg"
