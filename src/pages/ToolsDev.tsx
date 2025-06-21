@@ -17,9 +17,6 @@ export default function ToolsDev() {
     >
       <Typography variant="h4" align="left">
         Slackダイスボット
-        <a href='https://github.com/qwertyhoge/sw2-damage-calc-bot' target='_blank' style={{verticalAlign: "middle"}}>
-          <img src={githubIcon} style={{height: 32, margin: "0px 8px"}}/>
-        </a>
       </Typography>
       <Typography>
         <p>
