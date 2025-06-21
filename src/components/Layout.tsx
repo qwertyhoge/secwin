@@ -12,7 +12,7 @@ const Layout: React.FC = () => {
   const outlet = useOutlet();
 
   const getTabValue = () => {
-    if(location.pathname.startsWith('/skills')) return '/skills';
+    if(location.pathname.startsWith('/works')) return '/works';
 
     return location.pathname;
   };
@@ -34,7 +34,7 @@ const Layout: React.FC = () => {
           >
             <Tab label="Home" value="/" component={Link} to="/"/>
             <Tab label="About" value="/about" component={Link} to="/about"/>
-            <Tab label="Skills" value="/skills" component={Link} to="/skills"/>
+            <Tab label="Works" value="/works" component={Link} to="/works"/>
           </Tabs>
         </Toolbar>
       </AppBar>

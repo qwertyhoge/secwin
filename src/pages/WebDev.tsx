@@ -6,11 +6,11 @@ import FC2Note from "../assets/fc2note.png";
 import whiteboxSpec from "../assets/whitebox_spec.png";
 import gradCoop from "../assets/grad_coop.png";
 import vueTimetable from "../assets/vue_timetable.png";
-import SkillPage from './SkillPage';
+import WorkPage from './WorkPage';
 
 export default function WebDev() {
   return (
-    <SkillPage
+    <WorkPage
       title="Web開発"
       thumbnail={gradCoop}
     >
@@ -123,6 +123,6 @@ export default function WebDev() {
         >
         </ImageCardWithCaption>
       </Container>
-    </SkillPage>
+    </WorkPage>
   )
 }

@@ -7,7 +7,7 @@ type Props = {
     children?: React.ReactNode;
 };
 
-const SkillPage: React.FC<Props> = (props) => {
+const WorkPage: React.FC<Props> = (props) => {
   return (
     <div>
       <Container
@@ -56,4 +56,4 @@ const SkillPage: React.FC<Props> = (props) => {
   );
 };
 
-export default SkillPage;
+export default WorkPage;

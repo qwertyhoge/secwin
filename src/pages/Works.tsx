@@ -1,16 +1,16 @@
 import { Container } from "@mui/material";
-import skillsBackground from "../assets/skills_bg.jpg"
+import worksBackground from "../assets/works_bg.jpg"
 import gradCoop from "../assets/grad_coop.png";
 import qtTimetableMenu from "../assets/qt_timetable_menu.png";
 import blenderBook from "../assets/blender_book.png";
-import SkillCard from "../components/SkillCard"
+import WorkCard from "../components/WorkCard"
 import PageWithHero from "../components/PageWithHero";
 
-export default function Skills() {
+export default function Works() {
   return(
     <PageWithHero
-      title="Skills"
-      bg={skillsBackground}
+      title="Works"
+      bg={worksBackground}
     >
       <Container 
         sx={{
@@ -21,35 +21,35 @@ export default function Skills() {
           gap: 14
         }}
         >
-        <SkillCard
+        <WorkCard
           title="Web開発"
           thumbnail={gradCoop}
           cardLean={2}
           cardLeanHover={1}
           noteLean={-10}
-          targetUrl="/skills/webdev"
+          targetUrl="/works/webdev"
         >
-        </SkillCard>
+        </WorkCard>
 
-        <SkillCard
+        <WorkCard
           title="ツール開発"
           thumbnail={qtTimetableMenu}
           cardLean={-3}
           cardLeanHover={-1}
           noteLean={-7}
-          targetUrl="/skills/toolsdev"
+          targetUrl="/works/toolsdev"
         >
-        </SkillCard>
+        </WorkCard>
 
-        <SkillCard
+        <WorkCard
           title="3D・XR制作"
           thumbnail={blenderBook}
           cardLean={1}
           cardLeanHover={3}
           noteLean={-8}
-          targetUrl="/skills/xrdev"
+          targetUrl="/works/xrdev"
         >
-        </SkillCard>
+        </WorkCard>
       </Container>
     </PageWithHero>
   );

@@ -3,7 +3,7 @@ import './App.css';
 import Layout from './components/Layout';
 import Home from './pages/Home';
 import About from './pages/About';
-import Skills from './pages/Skills';
+import Works from './pages/Works';
 import WebDev from "./pages/WebDev";
 import ToolsDev from './pages/ToolsDev';
 import XRDev from './pages/XRDev';
@@ -15,10 +15,10 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
-          <Route path="skills" element={<Skills />} />
-          <Route path="skills/webdev" element={<WebDev />} />
-          <Route path="skills/toolsdev" element={<ToolsDev />} />
-          <Route path="skills/xrdev" element={<XRDev />} />
+          <Route path="works" element={<Works />} />
+          <Route path="works/webdev" element={<WebDev />} />
+          <Route path="works/toolsdev" element={<ToolsDev />} />
+          <Route path="works/xrdev" element={<XRDev />} />
         </Route>
       </Routes>
 );

@@ -5,11 +5,11 @@ import blenderBook from "../assets/blender_book.png";
 import blenderMopeFlower from "../assets/blender_mope_flower.png";
 import picholoIdle from "../assets/picholo_idle.gif";
 import picholoSwipe from "../assets/picholo_swipe.gif";
-import SkillPage from './SkillPage';
+import WorkPage from './WorkPage';
 
 export default function XRDev() {
   return (
-    <SkillPage
+    <WorkPage
       title="3D・XR制作"
       thumbnail={blenderBook}
     >
@@ -90,6 +90,6 @@ export default function XRDev() {
         </ImageCardWithCaption>
       </Container>
 
-    </SkillPage>
+    </WorkPage>
   )
 }

@@ -15,7 +15,7 @@ type Props = {
 
 const MotionCard = motion(Card);
 
-const SkillCard: React.FC<Props> = (props) => {
+const WorkCard: React.FC<Props> = (props) => {
   const navigate = useNavigate();
   const mainControls = useAnimation();
   const labelControls = useAnimation();
@@ -100,4 +100,4 @@ const SkillCard: React.FC<Props> = (props) => {
   );
 };
 
-export default SkillCard;
+export default WorkCard;

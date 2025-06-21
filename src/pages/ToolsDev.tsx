@@ -1,7 +1,7 @@
 import Divider from '@mui/material/Divider';
 import {Typography,  Container} from '@mui/material';
 import ImageCardWithCaption from "../components/ImageCardWithCaption";
-import SkillPage from './SkillPage';
+import WorkPage from './WorkPage';
 import githubIcon from "../assets/github-mark.svg"
 import slackDicebot from "../assets/slack_dicebot.png";
 import qtTimetableMenu from "../assets/qt_timetable_menu.png";
@@ -11,7 +11,7 @@ import arknightsRecommender from '../assets/arknights_recommender.png';
 
 export default function ToolsDev() {
   return (
-    <SkillPage
+    <WorkPage
       title="ほか制作ツール"
       thumbnail={qtTimetableMenu}
     >
@@ -122,6 +122,6 @@ export default function ToolsDev() {
         </ImageCardWithCaption>
       </Container>
 
-    </SkillPage>
+    </WorkPage>
   );
 }
